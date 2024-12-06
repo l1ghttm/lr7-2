@@ -1,7 +1,7 @@
 import json
 
 def find_qualification(qualification_number):
-    # Открываем файл и загружаем данные
+
     with open('dump.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
     
